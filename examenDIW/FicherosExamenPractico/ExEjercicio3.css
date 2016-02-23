@@ -1,0 +1,92 @@
+body {
+  color: #888;
+  font: normal 16px/32px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*los elementos de la clase cabecera y pie deben estar flotados a la derecha*/
+.cabecera,.pie{
+	float:right;
+}
+/*Los enlaces de la cabecera y el pie tendrán el color #801515, 
+un margen de 20px y estarán en mayúsculas*/
+.cabecera a , .pie a{
+	color:#801515;
+	margin:20px;
+	text-transform:uppercase;
+}
+/*Los enlaces que sean hijos (que estén dentro) de un encabezado h1, no deben tener subrayado, 
+su color será #550000 y estarán en mayúsculas*/
+h1 a{
+	text-decoration:none;
+	color:#550000;
+	text-transform:uppercase;
+}
+/*Los encabezados h1 que sean hijos (que estén dentro) de un elemento de la clase home, 
+deben estar flotados a la izquierda, tendrán un borde superior de 4px 
+sólido y de color #550000. El margen inferior será de 30px y el resto 0px*/
+h1.home{
+	float:left;
+	margin-bottom:30px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	border-top:solid;
+	border-top-style:4px;
+	border-color:#550000;	
+}
+/*Para que los elementos de la clase descripcion no se vean afectados por los elementos 
+flotados,se introducirá una regla*/
+.descripcion{
+	clear:both;
+}
+/*Los elementos h1 que son hijos (que estén dentro) de un elemento de la clase descripción
+tienen que estar en mayúsculas, alineados en el centro, con un color #801515
+y un margen superior de 70px*/
+.descripcion h1{
+	text-transform:uppercase;
+	text-align:center;
+	color:#801515;
+}
+/*Los elementos h2, h3 y h5 estarán alineados al centro, tendrán un margen de 30px
+en todos los lados y el color será #550000*/
+h2,h3,h5{
+	text-align:center;
+	margin:30px;
+	color:#550000;
+}
+/*Los elementos de la clase contenido estarán flotados a la izquierda, tendrán
+un ancho del 33% con respecto a su contenedor padre, y un margen inferior
+de 80px*/
+.contenido{
+	float:left;
+	width:33%;
+	margin-bottom:80px;
+}
+/*Los elementos p tendrán un margen a la derecha y a la izquierda de 20px y el 
+texto estará justificado*/
+p{
+	margin-left:20px;
+	margin-right:20px;
+	text-align:justify;
+}
+/*Los enlaces que sean hijos (que estén dentro) de un elemento de la clase contenido estarán flotados
+a la derecha y tendrán un margen de 0px en la parte superior e inferior y de 15px en
+los laterales*/
+.contenido a{
+	float:right;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:15px;
+	margin-right:15px;
+}
+/*Para que los elementos footer no se vean afectados por los elementos 
+flotados,se introducirá una regla*/
+footer{
+	clear:both;
+}
+/*El color de los enlaces que sean hijos (que estén dentro) de elementos section tendrán el color
+#550000*/
+section a{
+	color:#550000;
+}
+

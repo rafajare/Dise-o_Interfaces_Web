@@ -1,0 +1,116 @@
+body {
+  color: #888;
+  font: normal 16px/32px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*Los elementos de la clase cabecera y pie flotarán hacia la derecha*/
+.pie,.cabecera{
+	float:right;
+}
+
+/*Los enlaces que sean hijos de elementos de la clase cabecera y los enlaces que sean
+hijos de elementos de la clase pie serán de color #801515, tendrán un margen de 20px y
+el texto estará en mayúsculas */
+.cabecera > a , .pie > a{
+	color:#801515;
+	margin:20px;
+	text-transform:uppercase;
+}
+
+/*Los enlaces que son hijos de un encabezado h1 no tendrán subrayado, serán del color
+#550000 y estarán en mayúsculas*/
+h1 > a{
+	text-decoration:none;
+	color:#550000;
+	text-transform:uppercase;
+}
+
+/*Los encabezados h1 que sean hijos de elementos de la clase home tendrán un borde superior
+de 4px, sólido, y de color #550000. El margen será de 0px excepto el margen inferior que será de 30px*/
+.home > h1{
+	border-style:solid;
+	border-top:4px;
+	border-color:#550000;
+	margin:0px;
+	margin-bottom:30px;
+}
+
+/*Incluir una regla que haga que los elementos de la clase descripcion no se vean afectados 
+por los elementos flotados*/
+.descripcion{
+	clear:both;
+}
+
+/*Los elementos h1 que sean hijos de elementos de la clase descripcion mostrarán el texto
+en mayúsculas y centrado. El color será #801515 y tendrán un margen superior de 70px*/
+.descripcion * > h1{
+	text-align:center;
+	text-transform:uppercase;
+	color:#801515;
+	margin-top:70px;
+}
+
+/*Los encabezados h2, h3, h5 tendrán el texto centrado, un margen de 30px por todos los lados
+y un color #550000*/
+h2,h3,h5{
+	text-align:center;
+	margin:30px;
+	color:#550000;
+}
+
+/*Los elementos aside estarán flotados a la izquierda, con un ancho del 25% y una altura del 
+60%*/
+aside{
+	float:left;
+	width:25%;
+	height:60%;
+	position:absolute;
+}
+
+/*Los encabezados h2 que sean hijos de elementos aside tendrán el texto alineado a la izquierda*/
+aside > h2{
+	text-align:left;
+	}
+
+/*Los elementos de la clase contenido estarán flotados a la derecha, tendrán un ancho del 74%
+y un margen inferior de 80px*/
+.contenido *{
+	float:right;
+	width:74%;
+	margin-bottom:80px;
+}
+
+/*Los párrafos tendrán un margen derecho de 50px y el texto estará justificado*/
+p{
+	margin-right:50px;
+	text-align:justify;
+}
+
+/*Los enlaces que sean hijos de elementos de la clase contenido estarán flotados a la derecha
+y tendrán un margen a ambos lados de 50px y un margen superior e inferior de 0px*/
+
+.contenido > a{
+	float:right;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+/*Los elementos de una lista que sean hijos de un elemento aside no tendrán un estilo de tipo
+lista*/
+
+aside > li{
+	text-decoration:none;
+}
+/*Para que los elementos footer no se vean afectados por los elementos 
+flotados,se introducirá una regla*/
+footer{
+	clear:both;
+}
+
+/*El color de los enlaces que sean hijos de elementos section y los enlaces que sean hijos
+de elementos aside tendrán el color #550000*/
+section > a,aside > a{
+	color:#550000;
+}

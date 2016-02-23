@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	color:red;
+	font-family:Arial;
+	font-size:5px;
+}
+p{
+	color:#999;
+	font-family:Verdana;
+	font-size:2px;
+}
+

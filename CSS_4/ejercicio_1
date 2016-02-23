@@ -1,0 +1,19 @@
+﻿a) relative
+b)float
+c)relative
+d)absolute
+e)float none
+i)float none
+
+----------EJERCICIO 2---------
+
+div#sidebar {
+width: 200px;
+margin: 25px;
+padding-left: 30px;
+padding-right: 10px;
+border: 1px solid #FFF;
+}
+
+El elemento será de 160px. 200-30-10
+El elemento será la suma de todos.

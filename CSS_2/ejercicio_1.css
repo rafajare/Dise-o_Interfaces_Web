@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{background-color:#C2F670;
+width:200px;
+height:200px;
+float:left;
+margin-left:10em;
+}
+
+#p1{
+	border-style:solid;
+	border-color:black;
+	border-right:none;
+}
+	
+
+#p3{
+	padding:2em;
+	}
+	
+	
+
+#p4{
+	border-style:solid;
+	border-color:red;
+	border-right:none;
+	padding:2em;
+	}
+#p5{
+	border-style:solid;
+	border-color:red;
+	border-right:none;
+	padding:0em;
+	
+	}
+
+#p6{
+	border-style:dashed;
+	border-color:black;
+	padding-top: 1em;
+    padding-right: 6em;
+    padding-bottom: 1em;
+    padding-left: 6em;
+}
+
+#p7{
+	border-style:solid;
+	border-color:blue;
+	padding-top: 1em;
+    padding-right: 50px;
+    padding-bottom: 1em;
+    padding-left: 50px;
+	
+
+	

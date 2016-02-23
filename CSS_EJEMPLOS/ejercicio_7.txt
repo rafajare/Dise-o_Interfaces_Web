@@ -1,0 +1,1 @@
+Porque algunas propeidades que modifican el alrededor del elemento, como los bordes no se transmiten

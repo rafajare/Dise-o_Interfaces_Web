@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{font-face: sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;}
+  
+blockquote {
+font-size:1em;
+color: gray;
+line-height: 150%
+ }
+ 
+body{
+background-color: black;
+color: #666;
+margin-left: 12em;
+margin-right: 12em;
+}
+
+/*
+p {color: white;}
+blockquote {color: white;}
+li {color: white;}
+*/
+body{color:white;}
+
+ <strong style="red">Act now!</strong>
+ style.red{
+	 color:red;
+ }

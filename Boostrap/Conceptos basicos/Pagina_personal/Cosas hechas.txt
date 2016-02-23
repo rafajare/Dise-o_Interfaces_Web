@@ -1,0 +1,5 @@
+Barra de navegacion -- ENTERA
+JUMBOTRON QUEDA MUY MAL
+BARRA DE PROGRESO HECHA
+thumbail
+glyphicons

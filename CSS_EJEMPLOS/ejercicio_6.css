@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+body{color:red}
+h2{}
+h1,p{}
+.especial{}
+#intro{}
+#main strong{}
+h2+p{}
+body >p
